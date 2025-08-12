@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>394</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>哈基米加密</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../Temps__/XFICO.ico</normaloff>../../../../Temps__/XFICO.ico</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>401</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>哈基米加密 —— 基于AES128加密（你就白想破解罢（支持中文加密awa                                                       </string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_strInput">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>461</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_input">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>在此输入明文awa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>20</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>在此输入密钥awa（一定要牢记</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_keyInput">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>40</y>
+      <width>281</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_strOutput">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>210</y>
+      <width>471</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="modeChange">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>210</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>当前模式：加密awa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="goWork">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>271</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>启动! !</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>0</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> v1.14.0   by Xflinphyz</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>291</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>  处理结果————————————————》</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CatLanModeChange">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>喵喵喵?：关awa</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>774</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
